@@ -38,7 +38,7 @@ public final class nbp {
             File somefile = new File(fileName);
             File dwa = new File("jestę folderę");
             if (!dwa.exists()) {
-                dwa.mkdir();
+                dwa.mkdir(); 
             }
             System.out.println(dwa.getAbsolutePath());
             Scanner scan = new Scanner(somefile);
